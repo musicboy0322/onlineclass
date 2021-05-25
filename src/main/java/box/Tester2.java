@@ -19,13 +19,11 @@ public class Tester2 {
         System.out.println("Please enter your height");
         int height = scanner.nextInt();
 
-        for(Box b : list) {
-            b.validate(length, width, height);
-            System.out.println("Your box is " + b.getName() + ", and the price is " + b.getPrice() + " dollars");
+        for(Box box : list) {
+            box.validate(length, width, height);
+            System.out.println("Your box is " + box.getName() + ", and the price is " + box.getPrice() + " dollars");
             break;
         }
-
-
     }
 
 }

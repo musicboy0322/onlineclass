@@ -6,5 +6,13 @@ box/Box2.java
  box.Box2
 box/Tester1.java
  box.Tester1
+car/Tester.java
+ car.Tester
+car/Practice.java
+ car.Practice
+car/Car.java
+ car.Car
 box/Tester2.java
  box.Tester2
+car/ArrayPractice.java
+ car.ArrayPractice
