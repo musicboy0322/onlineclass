@@ -1,6 +1,7 @@
 package car;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class CarWin {
 
@@ -13,7 +14,8 @@ public class CarWin {
         frame.setVisible(true);
         frame.setSize(width, height);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
+        Color color = new Color(400, 100, 500);
+        frame.setBackground(color);
 
 
 
