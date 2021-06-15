@@ -7,19 +7,21 @@
     <properties/>
     <border type="none"/>
     <children>
-      <grid id="6af7b" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+      <grid id="fb9d6" binding="center" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="Center"/>
         <properties/>
         <border type="none"/>
         <children>
-          <component id="66eaf" class="javax.swing.JTextField" binding="textField1" default-binding="true">
-            <constraints/>
-            <properties/>
-          </component>
-          <component id="72358" class="javax.swing.JButton" binding="carIdButton" default-binding="true">
+          <component id="f3c73" class="javax.swing.JTextField" binding="textField1" default-binding="true">
             <constraints/>
             <properties>
-              <text value="CarId"/>
+              <columns value="30"/>
+            </properties>
+          </component>
+          <component id="91d9a" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
             </properties>
           </component>
         </children>

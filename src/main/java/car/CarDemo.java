@@ -4,9 +4,9 @@ import javax.swing.*;
 
 public class CarDemo {
     private JPanel mainPanel;
+    private JPanel center;
     private JTextField textField1;
-    private JButton carIdButton;
-    private JPanel panel1;
+    private JButton button1;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();
